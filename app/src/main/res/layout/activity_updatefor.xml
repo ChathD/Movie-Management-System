@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UpdateforActivity">
+
+    <TextView
+        android:id="@+id/textVw_update"
+        android:layout_width="177dp"
+        android:layout_height="71dp"
+        android:text="Update Movie"
+        android:textColor="#1C1B1B"
+        android:textSize="26dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.048" />
+
+
+    <EditText
+        android:id="@+id/text_v1"
+        android:layout_width="250dp"
+        android:layout_height="56dp"
+        android:background="#6AFFFFFF"
+        android:ems="10"
+        android:hint="    Enter  Title of the movie"
+        android:inputType="textPersonName"
+        android:textColor="@color/white"
+        android:textColorHint="#AE120D0D"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.534"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.185" />
+
+
+    <EditText
+        android:id="@+id/text_v2"
+        android:layout_width="249dp"
+        android:layout_height="56dp"
+        android:background="#6AFFFFFF"
+        android:ems="10"
+        android:hint="  Enter the Year"
+        android:inputType="number"
+        android:textColor="@color/white"
+        android:textColorHint="#AE120D0D"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.537"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.297" />
+
+    <EditText
+        android:id="@+id/text_v3"
+        android:layout_width="250dp"
+        android:layout_height="62dp"
+        android:background="#6AFFFFFF"
+        android:ems="10"
+        android:hint="   Enter Director Name"
+        android:inputType="textPersonName"
+        android:textColor="@color/white"
+        android:textColorHint="#AE120D0D"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.54"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.423" />
+
+    <EditText
+        android:id="@+id/text_v4"
+        android:layout_width="250dp"
+        android:layout_height="65dp"
+        android:background="#6AFFFFFF"
+        android:ems="10"
+        android:hint="   Name Of The actors/actresses"
+        android:inputType="textPersonName"
+        android:textColor="@color/white"
+        android:textColorHint="#AE120D0D"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.54"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.557" />
+
+    <EditText
+        android:id="@+id/text_v5"
+        android:layout_width="250dp"
+        android:layout_height="65dp"
+        android:background="#6AFFFFFF"
+        android:ems="10"
+        android:hint="   Enter a Rating ( 1 - 10 )"
+        android:inputType="number"
+        android:textColor="@color/white"
+        android:textColorHint="#AE120D0D"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.534"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.702" />
+
+    <EditText
+        android:id="@+id/text_v6"
+        android:layout_width="244dp"
+        android:layout_height="95dp"
+        android:background="#6AFFFFFF"
+        android:ems="10"
+        android:hint="   Write a Review"
+        android:inputType="textPersonName"
+        android:textColor="@color/white"
+        android:textColorHint="#AE120D0D"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.52"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.878" />
+
+    <Button
+        android:id="@+id/update_btn"
+        android:layout_width="139dp"
+        android:layout_height="48dp"
+        android:background="#6AFFFFFF"
+        android:text=" Update "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

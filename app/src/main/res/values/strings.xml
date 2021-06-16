@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">CourseWork2</string>
+    <string name="btn_register_movie">Register Movie</string>
+    <string name="btn_display_movie">Display Movie</string>
+    <string name="btn_favourites">Favourites</string>
+    <string name="btn_edit_movies">Edit Movies</string>
+    <string name="btn_search">Search</string>
+    <string name="btn_rating">Rating</string>
+    <string name="label_movie_name">Title</string>
+    <string name="enter_movie_name">Name</string>
+    <string name="label_movie_year">Year</string>
+    <string name="enter_movie_yr">Name</string>
+    <string name="label_director_name">Director</string>
+    <string name="enter_director_name">Name</string>
+    <string name="label_actor_name">Actors</string>
+    <string name="enter_actor_name">Name</string>
+    <string name="label_rating">Rating</string>
+    <string name="enter_rating">Name</string>
+    <string name="review_label">Review</string>
+    <string name="save_button">Save</string>
+
+
+</resources>
